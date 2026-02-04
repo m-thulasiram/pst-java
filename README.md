@@ -174,3 +174,118 @@ Writing clean and structured Java programs
 Name: (M.Thulasiram)
 Course: Java Programming
 Week: 2
+
+
+**Week 3 – Java Programming Tasks
+ Overview**
+
+This repository contains solutions for Week 3 Java programming tasks, focusing on string manipulation, sorting using comparators, object-oriented programming, and basic algorithmic problem solving. Each task includes its aim, algorithm, Java implementation, and verified output.
+
+The tasks are implemented using core Java concepts such as:
+
+Strings and substrings
+
+Comparator and Collections framework
+
+Classes and objects
+
+Loops and conditional logic
+
+📄 Source: Week-3 Assignment PDF 
+
+**week3**
+
+**Technologies Used**
+
+Language: Java
+
+Concepts: OOP, Comparator, Collections, Algorithms
+
+Tools: JDK, Scanner class
+
+ **Tasks Included**
+**Task 1:** Lexicographically Smallest and Largest Substrings
+
+Aim:
+Find the smallest and largest substrings of length k from a given string using lexicographical comparison.
+
+Key Concepts:
+String manipulation, compareTo() method
+
+**Task 2:** Player Ranking Using Comparator
+
+Aim:
+Sort Player objects:
+
+Descending order of score
+
+Ascending alphabetical order of name if scores are equal
+
+Key Concepts:
+Custom Comparator, object sorting
+
+**Task 3:** Student Sorting by CGPA
+
+Aim:
+Sort students based on:
+
+CGPA (descending)
+
+First name (ascending)
+
+ID (ascending)
+
+Key Concepts:
+Collections framework, multi-level sorting
+
+**Task 4:** Sort People by Height
+
+Aim:
+Sort people’s names based on their heights in descending order.
+
+Key Concepts:
+Array manipulation, Bubble Sort logic
+
+**Task 6:** Nth Prime Number
+
+Aim:
+Find the Nth prime number using a helper method to check primality.
+
+Key Concepts:
+Loops, prime number logic, helper methods
+
+**Task 8:** Lexicographical Substring Comparison
+
+Aim:
+Identify smallest and largest substrings of length k from a string.
+
+Key Concepts:
+String slicing, lexicographical comparison
+
+**Task 9:** Addition and Subtraction Pattern
+
+Aim:
+Compute a result by performing addition and subtraction from N to 1 based on a selected option.
+
+**Key Concepts:**
+Conditional logic, iteration, pattern-based computation
+
+ **Output Status**
+All programs were successfully executed, and outputs were verified using sample test cases as shown in the assignment document.
+
+**How to Run**
+
+**Compile the Java file:**
+
+javac FileName.java
+
+**Run the program:**
+
+java FileName
+
+
+Provide input as prompted.
+
+**Conclusion**
+
+This assignment demonstrates effective use of Java fundamentals and problem-solving techniques. It strengthens understanding of sorting mechanisms, string operations, and logical computation.
