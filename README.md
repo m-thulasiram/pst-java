@@ -289,3 +289,179 @@ Provide input as prompted.
 **Conclusion**
 
 This assignment demonstrates effective use of Java fundamentals and problem-solving techniques. It strengthens understanding of sorting mechanisms, string operations, and logical computation.
+
+ **WEEK 4 – Java Programming Tasks**
+
+This repository contains solutions to 10 programming tasks implemented in Java.
+Each task includes:
+
+ Aim
+
+ Algorithm
+
+ Program
+
+ Output
+
+ Result
+
+ **TASK 1 – Halves Are Alike**
+
+Aim:
+Determine whether both halves of an even-length string contain the same number of vowels.
+
+Concept Used: String traversal, vowel counting
+
+Key Idea:
+Split string into two halves → Count vowels → Compare counts
+
+**TASK 2 – Lapindrome Check**
+
+Aim:
+Check whether a given string is a lapindrome.
+
+Concept Used: Frequency array (26 characters)
+
+Key Idea:
+Split string → Ignore middle character if odd length → Compare frequency arrays
+
+**TASK 3 – Compare Triplets**
+
+Aim:
+Compare two triplets and calculate scores.
+
+Concept Used: Element-wise comparison
+
+Scoring Rule:
+
+If a[i] > b[i] → scoreA++
+
+If a[i] < b[i] → scoreB++
+
+ **TASK 4 – Contains Duplicate**
+
+Aim:
+Check whether an integer array contains duplicate elements.
+
+Concept Used: HashSet
+
+Key Idea:
+If element already exists in set → return true
+Else → add to set
+
+**TASK 5 – Time Conversion**
+
+Aim:
+Convert 12-hour AM/PM time format to 24-hour format.
+
+Concept Used: String manipulation
+
+Special Cases:
+
+12:XX:XX AM → 00:XX:XX
+
+12:XX:XX PM → 12:XX:XX
+
+**TASK 6 – Move Zeroes**
+
+Aim:
+Move all zero elements to the end while maintaining order.
+
+Concept Used: Two-pointer technique
+
+Time Complexity: O(n)
+
+ **TASK 7 – Diagonal Difference**
+
+Aim:
+Find absolute difference between primary and secondary diagonal sums.
+
+Formula:
+
+Primary → arr[i][i]
+
+Secondary → arr[i][n-i-1]
+
+Time Complexity: O(n)
+
+**TASK 8 – Matrix Transpose**
+
+Aim:
+Transpose a matrix (convert rows into columns).
+
+Formula:
+
+result[j][i] = matrix[i][j]
+
+
+Time Complexity: O(m × n)
+
+**TASK 9 – Matrix Block Sum**
+
+Aim:
+Compute block sum for each element within distance k.
+
+Concept Used: 2D Prefix Sum
+
+Optimization:
+Block sum calculated in O(1) using prefix matrix.
+
+Total Complexity: O(m × n)
+
+**TASK 10 – Matrix Rotation**
+
+Aim:
+Rotate matrix anticlockwise by r rotations layer by layer.
+
+Concept Used: Layer-by-layer traversal
+
+Steps:
+
+Extract layer elements
+
+Rotate list using modulo
+
+Place elements back
+
+Time Complexity: O(m × n)
+
+**Technologies Used**
+
+Java
+
+Arrays
+
+Strings
+
+HashSet
+
+Lists
+
+2D Matrices
+
+Prefix Sum Technique
+
+ **Learning Outcomes**
+
+After completing these tasks, you understand:
+
+String processing techniques
+
+Frequency counting
+
+Hashing
+
+Two-pointer methods
+
+Matrix traversal
+
+Prefix sum optimization
+
+Layer-based matrix rotation
+
+Time complexity analysis
+
+ **Conclusion**
+
+All 10 tasks were successfully implemented and tested.
+The programs execute correctly and produce expected outputs as shown in the document 
